@@ -1,0 +1,22 @@
+.profileH-container{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 75vh;
+    padding: 60px auto;
+}
+.formProfileH-container{
+    background-color: teal;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 30rem;
+    max-height: 40rem;
+    border: 1px solid black;
+    width: 30rem;
+    padding: 20px;
+}
+.profile-input{
+    padding: 5px;
+    margin: 5px;
+}

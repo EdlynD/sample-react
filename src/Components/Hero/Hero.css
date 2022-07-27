@@ -1,0 +1,159 @@
+.hero-container{
+    width: 100%;
+    padding: 20px 10px 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(53, 53, 53);
+
+}
+
+.about-container{
+    width: 50%;
+    margin: 10px;
+}
+.hero-container h1{
+    font-weight: bold;
+    margin: auto;
+    padding: 10px 30px;
+    font-size: 7rem;  
+}
+h3{
+    padding: 5px 30px;
+    margin: auto;
+    font-size: 2rem;
+}
+p{
+    font-size: 1rem;
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button-learn{
+    padding: 10px;
+    margin: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(53, 53, 53);;
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.icons-container-hero{
+    margin: 10px ;
+    display: flex;
+    padding: 10px;
+  
+}
+.icons-hero{
+    height: 40px;
+    width: 3rem;
+}
+
+/* carousel */
+.carousel-container{
+    padding: 10px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-picture{
+    height: 45rem;
+    width: 45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-img{
+    max-height: 50rem;
+    max-width: 50rem;
+    min-width: 20rem;
+    min-height: 20rem;
+    
+}
+
+.prev{
+    font-size: 2.5rem;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.next{
+    font-size: 2.5rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 770px){
+  .hero-container{
+    display: flex;
+    flex-direction: column;
+  }
+  
+.about-container{
+    width: 100%;
+    margin: 0;
+}
+.hero-container h1{
+    font-weight: bold;
+    margin: auto;
+    padding: 10px ;
+    font-size: 7rem;  
+}
+h3{
+    padding: 5px;
+    margin: auto;
+    font-size: 2rem;
+}
+p{
+    font-size: 1rem;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button-learn{
+    padding: 10px;
+    margin: 10px;
+   
+}
+.icons-container{
+    margin: 0 ;
+    display: flex;
+    padding: 5px;
+  
+}
+.carousel-container{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    
+}
+.carousel-picture{
+    height: 22rem;
+    width: 22rem;
+   
+}
+
+.carousel-img{
+    max-height: 50rem;
+    max-width: 50rem;
+    min-width: 10rem;
+    min-height: 10rem;
+    
+}
+
+}
+@media only screen and (max-width: 1440px){
+    .carousel-img{
+        max-height: 30rem;
+        max-width: 30rem;
+        min-width: 10rem;
+        min-height: 10rem;
+        
+    }
+}
+    
+
+
+
